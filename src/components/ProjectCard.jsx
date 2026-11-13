@@ -5,18 +5,14 @@ function ProjectCard() {
 
   return (
         <>
-    <section id="article">
-        <div>
-          <p className="hero-eyebrow">CREATIVE TECH · STRATEGY · CULTURE</p>
-          <h1>Charlene Brown</h1>
-          <p className="hero-statement">
-           I conjure ideas, people, and tech into real impact.</p>
+    <article className="project-card">
+        <div className="project-grid">
+          <h3>Kingsbridge University</h3>
+          <p>Project description</p>
         </div>
-    </section>
+    </article>
 
  
-
-
     </>
   )
 }

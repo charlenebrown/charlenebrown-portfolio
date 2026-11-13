@@ -1,16 +1,15 @@
-
+import ProjectCard from './ProjectCard.jsx'
 
 function FeaturedWork() {
  
 
   return (
         <>
-    <section id="center">
+    <section id="featured-work">
         <div>
-          <p className="hero-eyebrow">CREATIVE TECH · STRATEGY · CULTURE</p>
-          <h1>Charlene Brown</h1>
-          <p className="hero-statement">
-           I conjure ideas, people, and tech into real impact.</p>
+          <h2>Featured Work</h2>
+          <ProjectCard/>
+       
         </div>
     </section>
 
