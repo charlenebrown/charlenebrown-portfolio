@@ -6,7 +6,7 @@ function Hero() {
   return (
         <>
     <section id="center">
-        <div>
+        <div className="w-full, max-w-6xl mx-auto">
           <p className="hero-eyebrow">CREATIVE TECH · STRATEGY · CULTURE</p>
           <h1>Charlene Brown</h1>
           <p className="hero-statement">

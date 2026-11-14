@@ -3,10 +3,10 @@ function SiteHeader() {
 
   return (
         <>
-    <header>
+    <header className="flex flex-wrap items-center justify-between gap-6">
       <p>Charlene Brown</p>
 
-      <ul>
+      <ul className="flex  flex-wrap items-center gap-5">
         <li>The Studio</li>
         <li>Services</li>
         <li>About</li>
